@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.32106.194
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportAppThedor", "SportAppThedor\SportAppThedor.csproj", "{3CBE9772-C4E6-4F83-8833-9214483132BE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{D11C09B8-07F8-4138-89DD-C83898D0610A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportAppThedor.Tests", "Test\SportAppThedor.Tests\SportAppThedor.Tests.csproj", "{DBC76E1A-AC6D-4C58-96D2-1D2D173CE5CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{3CBE9772-C4E6-4F83-8833-9214483132BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CBE9772-C4E6-4F83-8833-9214483132BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CBE9772-C4E6-4F83-8833-9214483132BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBC76E1A-AC6D-4C58-96D2-1D2D173CE5CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBC76E1A-AC6D-4C58-96D2-1D2D173CE5CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBC76E1A-AC6D-4C58-96D2-1D2D173CE5CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBC76E1A-AC6D-4C58-96D2-1D2D173CE5CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DBC76E1A-AC6D-4C58-96D2-1D2D173CE5CB} = {D11C09B8-07F8-4138-89DD-C83898D0610A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1B3AB7D3-B4AA-471C-A375-3281B56FC52D}
